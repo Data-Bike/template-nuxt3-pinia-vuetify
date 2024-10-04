@@ -1,0 +1,43 @@
+{
+  "name": "template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "npm run lint:js",
+    "lintfix": "npm run lint:js -- --fix"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxt/content": "^2.13.2",
+    "@nuxt/kit": "^3.13.0",
+    "@pinia/nuxt": "^0.5.4",
+    "core-js": "^3.38.1",
+    "nuxt": "^3.13.0",
+    "vue": "^3.4.38",
+    "vuetify": "^3.7.1",
+    "nuxt-plotly": "1.0.12",
+    "vuetify-sonner": "^0.3.19"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.25.1",
+    "@nuxt/image": "^1.8.0",
+    "@nuxt/image-edge": "^1.3.0-28493895.369b747",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@vue/test-utils": "^2.4.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.23.0",
+    "eslint-plugin-jest": "^28.8.2",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-vue": "^9.27.0"
+  },
+  "resolutions": {
+    "@nuxt/kit": "3.0.0-rc.13"
+  }
+}
