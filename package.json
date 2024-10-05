@@ -17,6 +17,7 @@
     "@nuxt/kit": "^3.13.0",
     "@pinia/nuxt": "^0.5.4",
     "core-js": "^3.38.1",
+    "sass-embedded": "^1.79.4",
     "nuxt": "^3.13.0",
     "vue": "^3.4.38",
     "vuetify": "^3.7.1",
