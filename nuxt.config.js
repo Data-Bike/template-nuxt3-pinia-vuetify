@@ -109,8 +109,7 @@ export default {
       host: "0",
       hmr: {
         protocol: 'ws',
-        host: 'localhost',
-        clientPort: 3001
+        host: 'localhost'
       },
       watch: {
         usePolling: true,
